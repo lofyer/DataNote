@@ -553,7 +553,7 @@ Microsoft Excel 2013 PowerView
 
 Microsoft Excel 2013 PowerView使用示例
 
-http://kartograph.org/
+`Kartograph <http://kartograph.org/>`_
 
 2.7 机器学习工具
 =================
