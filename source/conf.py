@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Data Notes'
+project = u'Data Note'
 copyright = u'2014, lofyer'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -188,7 +188,7 @@ html_use_smartypants = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DataNotes_cndoc'
+htmlhelp_basename = 'DataNote_cndoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -208,7 +208,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'DataNoes.tex', u'Data Notes',
+  ('index', 'DataNoes.tex', u'Data Note',
    u'lofyer', 'manual'),
 ]
 
@@ -238,7 +238,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'datanotes', u'Data Notes',
+    ('index', 'datanotes', u'Data Note',
      [u'lofyer'], 1)
 ]
 
@@ -252,8 +252,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'DataNotes', u'Data Notes',
-   u'lofyer', 'DataNotes', 'One line description of project.',
+  ('index', 'DataNote', u'Data Note',
+   u'lofyer', 'DataNote', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -273,7 +273,7 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Data Notes'
+epub_title = u'Data Note'
 epub_author = u'lofyer'
 epub_publisher = u'lofyer'
 epub_copyright = u'2014, lofyer'
