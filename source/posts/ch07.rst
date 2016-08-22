@@ -9,10 +9,16 @@
 7.1.1. 新闻收集
 ================
 
+新闻收集使用了SimplePie，对各大主流媒体的RSS进行每小时一次的收集活动，并将其存储至数据库。
+
 7.1.2. 新闻分类
 ================
 
 分词、NLTK工具、分类
+
+https://github.com/yassersouri/classify-text
+https://github.com/kareemf/news-article-classification
+http://www.nltk.org/
 
 ---------------
 7.2. 汇率处理 
