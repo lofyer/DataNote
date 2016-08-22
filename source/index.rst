@@ -15,6 +15,7 @@
     posts/ch04.rst
     posts/ch05.rst
     posts/ch06.rst
+    posts/ch07.rst
 
 链接
 ==================

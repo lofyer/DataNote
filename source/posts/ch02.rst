@@ -565,3 +565,5 @@ Microsoft Excel 2013 PowerView使用示例
 `SciKit <http://scikit-learn.org/>`_
 
 `Pandas <http://pandas.pydata.org/>`_
+
+`NLTK <http://www.nltk.org/>`_
