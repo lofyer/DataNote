@@ -528,7 +528,6 @@ SVM（Supprot Vector Machines）即支持向量机，完全理解其理论知识
 
     |w^T A+b|
 
-========
 AdaBoost
 ========
 
