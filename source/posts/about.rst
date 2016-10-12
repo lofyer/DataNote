@@ -2,7 +2,9 @@
 关于
 =========================
 
-Author: lofyer@gmail.com
+Author: 十六（lofyer）
+
+Mail: lofyer@gmail.com
 
 QQ: 578645806
 
