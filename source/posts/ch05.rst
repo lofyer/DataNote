@@ -20,6 +20,8 @@
 5.3 MQL设计
 -------------
 
+笔者编写了一些交易脚本，包括EA和script，可访问https://github.com/lofyer/mt4-scripts进行下载。
+
 ----------------
 5.4 BackTesting
 ----------------
