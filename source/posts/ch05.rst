@@ -173,6 +173,61 @@ Brown bar - both MFI and volume are down. The market is no longer interested in 
 Oscillator
 ===========
 
+Aroon
+-----
+
+Developed by Tushar Chande in 1995, Aroon is an indicator system that determines whether a stock is trending or not and how strong the trend is. “Aroon” means “Dawn's Early Light” in Sanskrit. Chande chose this name because the indicators are designed to reveal the beginning of a new trend. The Aroon indicators measure the number of periods since price recorded an x-day high or low. There are two separate indicators: Aroon-Up and Aroon-Down. A 25-day Aroon-Up measures the number of days since a 25-day high. A 25-day Aroon-Down measures the number of days since a 25-day low. In this sense, the Aroon indicators are quite different from typical momentum oscillators, which focus on price relative to time. Aroon is unique because it focuses on time relative to price. Chartists can use the Aroon indicators to spot emerging trends, identify consolidations, define correction periods and anticipate reversals.
+
+**Calculation**
+
+The Aroon indicators are shown in percentage terms and fluctuate between 0 and 100. Aroon-Up is based on price highs, while Aroon-Down is based on price lows. These two indicators are plotted side-by-side for easy comparison. The default parameter setting in SharpCharts is 25 and the example below is based on 25 days.
+
+.. code::
+
+    Aroon-Up = ((25 - Days Since 25-day High)/25) x 100
+    Aroon-Down = ((25 - Days Since 25-day Low)/25) x 100
+
+.. image:: ../images/aron-1-spyexam.png
+    :align: center
+
+Aroon declines as the elapsed time between a new high or low increases. 50 is the cut off point. Because 12.5 days marks the exact middle, a reading of exactly 50 is impossible on a daily chart. It is possible with other timeframes. On daily charts, Aroon is either below 50 (48) or above 50 (52). A reading above 50 means a new high or low was recorded within the last 12 days or less. This is the most recent half of the look-back period. A reading below 50 means a new high or low was recorded within the last 13 days or more {(25-13)/25 x 100 = 48). This is the latter half of the look-back period. The table below shows the range of values for 25-day Aroon-Up and 25-day Aroon-Down
+
+.. image:: ../images/aron-6-xlsheet.png
+    :align: center
+
+**Interpretation**
+
+The Aroon indicators fluctuate above/below a centerline (50) and are bound between 0 and 100. These three levels are important for interpretation. At its most basic, the bulls have the edge when Aroon-Up is above 50 and Aroon-Down is below 50. This indicates a greater propensity for new x-day highs than lows. The converse is true for a downtrend. The bears have the edge when Aroon-Up is below 50 and Aroon-Down is above 50.
+
+A surge to 100 indicates that a trend may be emerging. This can be confirmed with a decline in the other Aroon indicator. For example, a move to 100 in Aroon-Up combined with a decline below 30 in Aroon-Down shows upside strength. Consistently high readings mean prices are regularly hitting new highs or new lows for the specified period. Prices are moving consistently higher when Aroon-Up remains in the 70-100 range for an extended period. Conversely, consistently low readings indicate that prices are seldom hitting new highs or lows. Prices are NOT moving lower when Aroon-Down remains in the 0-30 range for an extended period. This does not mean prices are moving higher though. For that we need to check Aroon-Up.
+
+**New Trend Emerging**
+
+There are three stages to an emerging trend signal. First, the Aroon lines will cross. Second, the Aroon lines will cross above/below 50. Third, one of the Aroon lines will reach 100. For example, the first stage of an uptrend signal is when Aroon-Up moves above Aroon-Down. This shows new highs becoming more recent than new lows. Keep in mind that Aroon measures the time elapsed, not the price. The second stage is when Aroon-Up moves above 50 and Aroon-Down moves below 50. The third stage is when Aroon-Up reaches 100 and Aroon-Down remains at relatively low levels. The first and second stages do not always occur in that order. Sometimes Aroon-Up will break above 50 and then above Aroon-Down. Reverse engineering the uptrend stages will give you the emerging downtrend signal. Aroon-Down breaks above Aroon-Up, breaks above 50 and reaches 100.
+
+.. image:: ../images/aron-2-csxtrend.png
+    :align: center
+
+The chart above shows CSX Corp (CSX) with weekly bars and 25-week Aroon. First, notice that the downtrend began weakening as Aroon-Down declined below 50 at the end of 2007 (far left). The first stage of an uptrend was signaled when Aroon-Up moved above Aroon-Down in early 2008 (first orange circle). Aroon-Up continued above 50 and hit 100 as Aroon-Down remained at relatively low levels. Notice how Aroon-Up remained near 100 as the advance continued. This emerging uptrend signal lasted until September 2008 when Aroon-Down broke above Aroon-Up, exceeded 50 and surged to 100 (second orange circle). Notice how Aroon-Down remained near 100 as the downtrend extended. The third trend on this chart was signaled when Aroon-Up surged to 100 in June 2009 and remained above 50 for over a year (third orange circle). Also notice that Aroon-Down remained below 50 for over a year.
+
+**Consolidation Period**
+
+The Aroon indicators signal a consolidation when both are below 50 and/or both are moving lower with parallel lines. It makes sense that consistent readings below 50 are indicative of flat trading. For 25-day Aroon, readings below 50 mean a 25-day high or low has not been recorded in 13 or more days. Prices are clearly flat when not recording new highs or new lows. Similarly, a consolidation is usually forming when both Aroon-Up and Aroon-Down move lower in parallel fashion and the distance between the two lines is quite small. This narrow parallel decline indicates that some sort of trading range is forming. The first Aroon indicator to break above 50 and hit 100 will trigger the next signal.
+
+.. image:: ../images/aron-3-omcflat.png
+    :align: center
+
+The chart above shows Omnicom (OMC) with the Aroon indicators moving below 50 in a parallel decline. The width of the channel could be narrower, but we can see the consolidation taking shape on the price chart for confirmation. Both Aroon-Up and Aroon-Down were below 50 in the yellow area. Aroon-Up then broke out and surged to 100, which was before the breakout. Further confirmation came with another Aroon-Up surge at the breakout point. This surge/breakout signaled the end of the consolidation and the beginning of the advance.
+
+.. image:: ../images/aron-4-lpntflat.png
+    :align: center
+
+The next chart shows Lifepoint Hospitals (LPNT) with 25-day Aroon. Both lines moved lower in May with a parallel decline. The distance between the lines was around 25 points throughout the decline. Aroon-Up and Aroon-Down flattened in June and both remained below 50 for around two weeks as the triangle consolidation extended. Aroon-Down (red) was the first to make its move with a break above 50 just before the triangle break on the price chart. Aroon-Down hit 100 as prices broke triangle support to signal a continuation lower.
+
+**Conclusions**
+
+Aroon-Up and Aroon-Down are complementary indicators that measure the elapsed time between new x-day highs and lows, respectively. They are shown together so chartists can easily identify the stronger of the two and determine the trend bias. A surge in Aroon-Up combined with a decline in Aroon-Down signals the emergence of an uptrend. Conversely, a surge in Aroon-Down combined with a decline in Aroon-Up signals the start of a downtrend. A consolidation is present when both move lower in parallel fashion or when both remain at low levels (below 30). Chartists can use the Aroon indicators to determine if a security is trending or trading flat and then use other indicators to generate appropriate signals. For example, chartists might use a momentum oscillator to identify oversold levels when 25-week Aroon indicates that the long-term trend is up.
+
 RSI Bar
 -------
 
@@ -317,6 +372,26 @@ Smaller CCI indicator period increases its sensitivity. Shifting critical levels
 **CCI Trading Strategy**
 
 CCI trading strategy is used by most traders, investors and chartists as an overbought or oversold oscillator. The basic strategy of CCI is to watch the readings above +100 and below -100. The readings above +100 are considered overbought and generate buy signals. The readings below -100 are considered oversold and generate sell signals. Though the Commodity Channel Index was initially developed for commodities, it is also used for trading stock index futures and options.
+
+**Caculation**
+
+The example below is based on a 20-period Commodity Channel Index (CCI) calculation. The number of CCI periods is also used for the calculations of the simple moving average and Mean Deviation.
+
+.. code::
+
+    CCI = (Typical Price  -  20-period SMA of TP) / (.015 x Mean Deviation)
+    Typical Price (TP) = (High + Low + Close)/3
+    Constant = .015
+
+There are four steps to calculating the Mean Deviation. First, subtract 
+the most recent 20-period average of the typical price from each period's 
+typical price. Second, take the absolute values of these numbers. Third, 
+sum the absolute values. Fourth, divide by the total number of periods (20). 
+
+Lambert set the constant at .015 to ensure that approximately 70 to 80 percent of CCI values would fall between -100 and +100. This percentage also depends on the look-back period. A shorter CCI (10 periods) will be more volatile with a smaller percentage of values between +100 and -100. Conversely, a longer CCI (40 periods) will have a higher percentage of values between +100 and -100.
+
+.. image:: ../images/cci-1-msftsheet.png
+    :align: center
 
 DeMarker(DeM)
 -------------
