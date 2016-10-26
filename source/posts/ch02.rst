@@ -528,6 +528,9 @@ SVM（Supprot Vector Machines）即支持向量机，完全理解其理论知识
 
     |w^T A+b|
 
+神经网络
+=========
+
 AdaBoost
 ========
 
@@ -583,3 +586,9 @@ Microsoft Excel 2013 PowerView使用示例
 `Pandas <http://pandas.pydata.org/>`_
 
 `NLTK <http://www.nltk.org/>`_
+
+pybrain
+
+numpy
+
+matplotlib
