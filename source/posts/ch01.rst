@@ -71,9 +71,3 @@ https://github.com/followyourheart/sina-weibo-crawler
 ------------------
 1.3 统计学关键字
 ------------------
-
-----------------
-1.4 搜索引擎
-----------------
-
-搜索引擎往往具备爬、索、搜等功能，在此我们以一个非常适合懒人的一体化搜索引擎 `OpenSearchServer <http://www.opensearchserver.com>`_ 为例。

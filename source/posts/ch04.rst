@@ -34,8 +34,8 @@ Hue：`Hadoop User Experience <http://gethue.com>`_ ，即web UI
 
 这里的数据是很原始的数据，即DIKW模型中的Data，我们的目的即是要Information以及Knowledge，及最后的Wisdom。
 
-5.3.1. 数据降维（D）
-====================
+5.3.1. 数据降/增维（D）
+=======================
 
 5.3.2. 文本搜索引擎（I）
 =====================
