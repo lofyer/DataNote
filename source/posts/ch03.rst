@@ -24,6 +24,8 @@ Bell_Curves
 
 Collective_Coorperation
 
+DIKW
+
 Entropy
 
 Fisher
