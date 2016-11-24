@@ -8,7 +8,7 @@
 
 有时候写着写着就找到了之前写科幻小说的感觉。。
 
-Author: 黑十六（lofyer）
+Author: lofyer
 
 Mail: lofyer@gmail.com
 
