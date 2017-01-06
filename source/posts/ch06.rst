@@ -21,7 +21,9 @@
 分词、NLTK工具、分类
 
 https://github.com/yassersouri/classify-text
+
 https://github.com/kareemf/news-article-classification
+
 http://www.nltk.org/
 
 *评级需要学习* ，即根据新闻发生时间、地点、事件，然后结合大盘状况进行评级。
