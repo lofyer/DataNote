@@ -17,62 +17,91 @@ Agent Based Modeling的历史严格来说并不算太久，很多论文中我们
 -------------
 
 Auction
+========
 
 Automata
+========
 
 Bell_Curves
+===========
 
 Collective_Coorperation
+=======================
 
 DIKW
+====
 
 Entropy
+=======
 
 Fisher
+======
 
 Large_Event
+===========
 
 Linear
+======
 
 Long_tails
+==========
 
 Lyapunov
+========
 
 Marknov
+=======
 
 Miller_Page
+===========
 
 Nash_Equilibrium
+================
 
 Networks
+========
 
 Percolation
+===========
 
 Polya_Balancing_Process
+=======================
 
 Prisoner_Dilemma
+================
 
 RandomWalking
+=============
 
 Risk_in_tails
+=============
 
 S_Concurve_Convex
+=================
 
 Schellings
+==========
 
 ShapleyValue
+============
 
 Six_Sigma
+=========
 
 Spatial
+=======
 
 Tipping_Point
+=============
 
 Uncertainty
+===========
 
 Voter
+=====
 
 EACH
+====
 
 ----------------
 3.4 NetLogo实例
