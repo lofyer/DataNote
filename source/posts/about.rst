@@ -10,7 +10,7 @@ Author: 猪大壮
 
 在线阅读
 
-ReadTheDocs: https://datanote.readthedocs.org
+ReadTheDocs: https://datanotes.readthedocs.org
 
 .. raw:: html
 

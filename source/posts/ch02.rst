@@ -1,6 +1,6 @@
-====================
-第二章 数学建模基础
-====================
+==========================
+第二章 数学建模与学习基础
+==========================
 
 ----------------
 2.1 numpy 快查
@@ -578,8 +578,6 @@ Microsoft Excel 2013 PowerView使用示例
 -------------
 
 `Weka <http://www.cs.waikato.ac.nz/>`_
-
-`Netlogo <https://ccl.northwestern.edu/netlogo/>`_
 
 `SciKit <http://scikit-learn.org/>`_
 

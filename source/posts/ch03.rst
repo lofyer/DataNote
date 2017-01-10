@@ -6,11 +6,15 @@
 3.1 ABM历史
 -------------
 
+Agent Based Modeling的历史严格来说并不算太久，很多论文中我们都可以看到它是近几十年才成型的建模方法。
+
+NetLogo - NetLogo language
+
+Mesa - Python3
+
 -------------
 3.2 建模方法
 -------------
-
-Agent Based Modeling的历史严格来说并不算太久，很多论文中我们都可以看到它是近几十年才成型的建模方法。
 
 -------------
 3.3 模型收集
@@ -22,10 +26,10 @@ Auction
 Automata
 ========
 
-Bell_Curves
+Bell Curves
 ===========
 
-Collective_Coorperation
+Collective Coorperation
 =======================
 
 DIKW
@@ -37,13 +41,13 @@ Entropy
 Fisher
 ======
 
-Large_Event
+Large Event
 ===========
 
 Linear
 ======
 
-Long_tails
+Long tails
 ==========
 
 Lyapunov
@@ -52,10 +56,10 @@ Lyapunov
 Marknov
 =======
 
-Miller_Page
+Miller Page
 ===========
 
-Nash_Equilibrium
+Nash Equilibrium
 ================
 
 Networks
@@ -64,34 +68,34 @@ Networks
 Percolation
 ===========
 
-Polya_Balancing_Process
+Polya Balancing Process
 =======================
 
-Prisoner_Dilemma
+Prisoner Dilemma
 ================
 
 RandomWalking
 =============
 
-Risk_in_tails
+Risk in tails
 =============
 
-S_Concurve_Convex
+S Concurve Convex
 =================
 
 Schellings
 ==========
 
-ShapleyValue
-============
+Shapley Value
+==============
 
-Six_Sigma
-=========
+Six Sigma
+==========
 
 Spatial
 =======
 
-Tipping_Point
+Tipping Point
 =============
 
 Uncertainty
