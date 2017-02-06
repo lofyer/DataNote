@@ -11,8 +11,35 @@
 .. image:: ../images/arch.png
     :align: center
 
-在学习分类指标与评级指标的时候，我们需要做批量的backtesting。学习的算法先以无监督学习，再以监督学习着重进行。
-     
+与本章相关的项目：
+
+.. code::
+
+    主站点
+    https://forex.fusionworks.cn
+
+    新闻GIS系统
+    https://github.com/lofyer/forex-gis-news.git
+
+    MT4服务端
+    https://github.com/lofyer/mt4-server.git        
+    
+    MT4交易脚本
+    https://github.com/lofyer/mt4-scripts.git       
+    
+    TUI汇率展示
+    https://github.com/lofyer/forex-rate-board.git  
+
+    OANDA API调用脚本
+    https://github.com/lofyer/oanda-scripts.git     
+
+    交易模型
+    https://github.com/lofyer/quantum-trade-model.git
+
+    原始交易模型
+    https://github.com/lofyer/trade-model-01.git
+
+在学习分类指标与评级指标的时候，我们需要做批量的backtesting。学习的算法先用无监督学习，再用监督学习着重进行。
 
 -----------------------------
 6.1. 新闻、报告与大盘信息
@@ -44,6 +71,8 @@ https://github.com/yassersouri/classify-text
 https://github.com/kareemf/news-article-classification
 
 http://www.nltk.org/
+
+可直接食用python-geograpy进行新闻地点筛选，以及pycountry查询地点信息。
 
 *评级需要学习* ，即根据新闻发生时间、地点、事件，然后结合大盘状况进行评级。
 

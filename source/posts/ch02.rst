@@ -585,7 +585,7 @@ Microsoft Excel 2013 PowerView使用示例
 
 `NLTK <http://www.nltk.org/>`_
 
-pybrain
+`pybrain <http://pybrain.org>`_
 
 numpy
 
