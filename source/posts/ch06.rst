@@ -72,7 +72,15 @@ https://github.com/kareemf/news-article-classification
 
 http://www.nltk.org/
 
-可直接食用python-geograpy进行新闻地点筛选，以及pycountry查询地点信息。
+scipy
+
+scikit_learn
+
+pybrain
+
+jieba
+
+可直接使用python-geograpy进行新闻地点筛选，以及pycountry查询地点信息。
 
 *评级需要学习* ，即根据新闻发生时间、地点、事件，然后结合大盘状况进行评级。
 
