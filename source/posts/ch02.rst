@@ -1,5 +1,5 @@
 ==========================
-第二章 数学建模与学习基础
+第二章 数学建模与机器学习基础
 ==========================
 
 ----------------
@@ -577,15 +577,17 @@ Microsoft Excel 2013 PowerView使用示例
 2.5 学习工具
 -------------
 
+`Pandas <http://pandas.pydata.org/>`_
+
 `Weka <http://www.cs.waikato.ac.nz/>`_
 
 `SciKit <http://scikit-learn.org/>`_
 
-`Pandas <http://pandas.pydata.org/>`_
-
 `NLTK <http://www.nltk.org/>`_
 
 `pybrain <http://pybrain.org>`_
+
+`tensorflow <https://github.com/tensorflow`
 
 numpy
 
