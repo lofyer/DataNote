@@ -1,6 +1,6 @@
-==========================
+===============================
 第二章 数学建模与机器学习基础
-==========================
+===============================
 
 ----------------
 2.1 numpy 快查
@@ -494,6 +494,9 @@ Sigmoid函数具有单位阶跃函数的性质，公式表示为：
 
 .. code::
 
+    def sigmoid(x):
+        return 1.0/(1+math.exp(-x))
+
     def gradAscent(dataMatIn, classLabels):
         dataMatrix = mat(dataMatIn)             #convert to NumPy matrix
         labelMat = mat(classLabels).transpose() #convert to NumPy matrix
@@ -509,7 +512,59 @@ Sigmoid函数具有单位阶跃函数的性质，公式表示为：
 
     其中，误差值乘以矩阵的转秩代表梯度。
 
-待修改。
+接下来，我们载入数据集尝试画出最佳拟合直线：
+
+.. code::
+    
+    import matplotlib.pyplot as plt
+    def plotBestFit(w):
+        weights = w.getA() # 将矩阵转化为数组
+        dataMat, labelMat = loadDataSet()
+        dataArr = array(dataMat)
+        n = shape(dataArr)[0]
+        x1 = x2 = x3 = x4 = []
+        for i in range(n):
+            if int(labelMat[i] == 1:
+                x1.append(dataArr[i,1]); y1.append(dataArr[i,2])
+            else
+                x2.append(dataArr[i,1]); y2.append(dataArr[i,2])
+        fig = plt.figure()
+        ax = fig.add_subplot(111)
+        ax.scatter(x1, y1, s=30, c='red', markers='s')
+        ax.scatter(x2, y2, s=30, c='green')
+        x = arrange(-3.0, 3.0, 0.1)
+        y = (-weight[0]-weights[1]*x)/weights[2]
+        ax.plot(x, y)
+        plt.xlabel('X1')
+        plt.xlabel('X2')
+        plt.show()
+
+如果处理大量数据集时，可以使用批量数据集中的单个数据点进行系数更新，或者使用随机数据集的数据点，分别如下所示：
+
+.. code::
+    
+    def stocGradAscentBatch(dataMatrix, classLabels):
+        m,n = shape(dataMatrix)
+        alpha = 0.01
+        weights = ones(n)
+        for i in range(m):
+            h = sigmoid(sum(dataMatrix[i]*weights))
+            error = classLabels[i] - h
+            weights = weights + alpha * error * dataMatrix[i]
+        return weights
+
+    def stocGradAscentRand(dataMatrix, classLabels, numIter=150)
+        m,n = shape(dataMatrix)
+        weights = ones(n)
+        for j in range(numIter)
+            dataIndex = range(m)
+            for i in range(m):
+                alpha = 4/(1.0+j+i)+0.01    # 调整
+                randIndex = int(random.uniform(0, len(dataIndex)))
+                h = sigmoid(sum(dataMatrix[randIndex]*weights))
+                error = classLabels[randIndex] - h
+                weights = weights + alpha * error * dataMatrix[randIndex]
+                del(dataIndex[randIndex])   # 删除已选，防止重复选取
 
 线性回归
 ==========
@@ -520,9 +575,53 @@ Sigmoid函数具有单位阶跃函数的性质，公式表示为：
 SVM
 ===
 
-SVM（Supprot Vector Machines）即支持向量机，完全理解其理论知识对数学要求较高。
+SVM（Supprot Vector Machines）即支持向量机，完全理解其理论知识对数学要求较高，以笔者的二半吊子水平不足以完全应付，所以，我就培养下感性认识吧。
 
-以2维数据为例，即平面上的点，一般形式为y=ax+b，如果在更高维度，则是超平面，写作：
+以下内容来自 `向5岁孩子解释SVM <http://bytesizebio.net/2014/02/05/support-vector-machines-explained-well/>`_ ：
+
+桌子上有两种颜色的球，
+
+.. image:: ../images/svm1.png
+    :align: center
+
+我们需要在中间摆一根棍子把它们分开，
+
+.. image:: ../images/svm2.png
+    :align: center
+
+完美，那么再加点球，发现再找到一个合适位置的话比较难了（但仍然可以找到），
+
+.. image:: ../images/svm3.png
+    :align: center
+
+SVM就是试图把棍放在最佳位置，好让在棍的两边有尽可能大的间隙，
+
+.. image:: ../images/svm4.png
+    :align: center
+
+这根棍仍然可以分开它们，
+
+.. image:: ../images/svm5.png
+    :align: center
+
+如果，这样摆呢？
+
+.. image:: ../images/svm6.png
+    :align: center
+
+你怒拍桌子，将球高高弹起，然后向忍着水果那样在空中划过笔直的一刀。就这样分开了。
+
+.. image:: ../images/svm7.png
+    :align: center
+
+那一瞬，球在另一个维度被完美分开了，像这样。
+
+.. image:: ../images/svm8.png
+    :align: center
+
+再之后无聊的大人们，把这些球叫做 data，把棍子 叫做 classifier, 最大间隙的把戏叫做optimization， 拍桌子叫做kernelling, 那张纸叫做hyperplane。
+
+以2维数据为例，即平面上的点，可以用直线分割，一般形式为y=ax+b，如果不可分割，我们就将其提高一个维度，分割线变成了分割面（超平面），写作：
 
 .. math::
 
@@ -554,6 +653,8 @@ FP-growth发现高频项
 数据统计
 ========
 
+`Pandas <http://pandas.pydata.org/>`_
+
 Gephi
 
 GraphViz
@@ -577,8 +678,6 @@ Microsoft Excel 2013 PowerView使用示例
 2.5 学习工具
 -------------
 
-`Pandas <http://pandas.pydata.org/>`_
-
 `Weka <http://www.cs.waikato.ac.nz/>`_
 
 `SciKit <http://scikit-learn.org/>`_
@@ -588,6 +687,8 @@ Microsoft Excel 2013 PowerView使用示例
 `pybrain <http://pybrain.org>`_
 
 `tensorflow <https://github.com/tensorflow`
+
+libsvm
 
 numpy
 

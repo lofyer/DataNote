@@ -6,4 +6,11 @@ DataNote
 在线阅读
 ----
 
+Build
+----
+
+pip3 install sphinx
+pip3 install textex
+pip3 install sphinx_rtd_theme
+
 ReadTheDocs: https://datanote.readthedocs.org
