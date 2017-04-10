@@ -34,6 +34,7 @@
     posts/ch06.rst
     posts/ch07.rst
     posts/ch08.rst
+    posts/chn.rst
     posts/about.rst
 
 TODO:
