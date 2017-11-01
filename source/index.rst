@@ -25,6 +25,10 @@
 .. image:: ./images/logo.jpg
     :align: center
 
+这里是主架构图。
+
+.. image:: ./images/infra-1.png
+
 .. toctree::
     :maxdepth: 3
 
