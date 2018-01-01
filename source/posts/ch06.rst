@@ -60,6 +60,11 @@
 .. image:: ../images/arch.png
     :align: center
 
+这是目前的服务器架构图：
+
+.. image:: ../images/forex_infra_1.png
+    :align: center
+
 目前与本章相关的项目：
 
 .. code::
