@@ -686,7 +686,7 @@ Microsoft Excel 2013 PowerView使用示例
 
 `pybrain <http://pybrain.org>`_
 
-`tensorflow <https://github.com/tensorflow`
+`tensorflow <https://github.com/tensorflow>`_
 
 libsvm
 
