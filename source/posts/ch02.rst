@@ -678,7 +678,24 @@ Microsoft Excel 2013 PowerView使用示例
 2.5 学习工具
 -------------
 
+Online
+=======
+
+GUI
+====
+
 `Weka <http://www.cs.waikato.ac.nz/>`_
+
+`MOA <https://moa.cms.waikato.ac.nz>`_
+
+`Orange <https://orange.biolab.si/>`_
+
+`KNIME <https://www.knime.com/>`_
+
+Library
+========
+
+`Spark MLlib <http://spark.apache.org/mllib/>`_
 
 `SciKit <http://scikit-learn.org/>`_
 
@@ -687,6 +704,10 @@ Microsoft Excel 2013 PowerView使用示例
 `pybrain <http://pybrain.org>`_
 
 `tensorflow <https://github.com/tensorflow>`_
+
+pytorch
+
+caffe
 
 libsvm
 

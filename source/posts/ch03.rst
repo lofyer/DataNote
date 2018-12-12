@@ -39,12 +39,12 @@ Auction
 
 Auction theory is an applied branch of economics which deals with how people act in auction markets and researches the properties of auction markets. There are many possible designs (or sets of rules) for an auction and typical issues studied by auction theorists include the efficiency of a given auction design, optimal and equilibrium bidding strategies, and revenue comparison. Auction theory is also used as a tool to inform the design of real-world auctions; most notably auctions for the privatization of public-sector companies or the sale of licenses for use of the electromagnetic spectrum.
 
-General idea[edit]
+General idea
 Auctions are characterized as transactions with a specific set of rules detailing resource allocation according to participants' bids. They are categorized as games with incomplete information because in the vast majority of auctions, one party will possess information related to the transaction that the other party does not (e.g., the bidders usually know their personal valuation of the item, which is unknown to the other bidders and the seller).[1] Auctions take many forms, but they share the characteristic that they are universal and can be used to sell or buy any item. In many cases, the outcome of the auction does not depend on the identity of the bidders (i.e., auctions are anonymous).
 
 Most auctions have the feature that participants submit bids, amounts of money they are willing to pay. Standard auctions require that the winner of the auction is the participant with the highest bid. A nonstandard auction does not require this (e.g., a lottery).
 
-Types of auction[edit]
+Types of auction
 Main article: Auction § Types
 There are traditionally four types of auction that are used for the allocation of a single item:
 
@@ -54,7 +54,7 @@ Open ascending-bid auctions (English auctions) in which participants make increa
 Open descending-bid auctions (Dutch auctions) in which the price is set by the auctioneer at a level sufficiently high to deter all bidders, and is progressively lowered until a bidder is prepared to buy at the current price, winning the auction.
 Most auction theory revolves around these four "basic" auction types. However, other auction types have also received some academic study (see Auction Types).
 
-Benchmark model[edit]
+Benchmark model
 The benchmark model for auctions, as defined by McAfee and McMillan (1987), offers a generalization of auction formats, and is based on four assumptions:
 
 All of the bidders are risk-neutral.
@@ -69,7 +69,7 @@ Risk-averse bidders incur some kind of cost from participating in risky behavior
 In formats with correlated values—where the bidders’ values for the item are not independent—one of the bidders perceiving their value of the item to be high makes it more likely that the other bidders will perceive their own values to be high. A notable example of this instance is the Winner’s curse, where the results of the auction convey to the winner that everyone else estimated the value of the item to be less than they did. Additionally, the linkage principle allows revenue comparisons amongst a fairly general class of auctions with interdependence between bidders' values.
 The asymmetric model assumes that bidders are separated into two classes that draw valuations from different distributions (i.e., dealers and collectors in an antiques auction).
 In formats with royalties or incentive payments, the seller incorporates additional factors, especially those that affect the true value of the item (e.g., supply, production costs, and royalty payments), into the price function.[1]
-Game-theoretic models[edit]
+Game-theoretic models
 A game-theoretic auction model is a mathematical game represented by a set of players, a set of actions (strategies) available to each player, and a payoff vector corresponding to each combination of strategies. Generally, the players are the buyer(s) and the seller(s). The action set of each player is a set of bid functions or reservation prices (reserves). Each bid function maps the player's value (in the case of a buyer) or cost (in the case of a seller) to a bid price. The payoff of each player under a combination of strategies is the expected utility (or expected profit) of that player under that combination of strategies.
 
 Game-theoretic models of auctions and strategic bidding generally fall into either of the following two categories. In a private value model, each participant (bidder) assumes that each of the competing bidders obtains a random private value from a probability distribution. In a common value model, the participants have equal valuations of the item, but they do not have perfectly accurate information about this valuation. In lieu of knowing the exact valuation of the item, each participant can assume that any other participant obtains a random signal, which can be used to estimate the true valuation, from a probability distribution common to all bidders.[2] Usually, but not always, a private values model assumes that the values are independent across bidders, whereas a common value model usually assumes that the values are independent up to the common parameters of the probability distribution.
@@ -91,8 +91,22 @@ The first formal analysis of auctions was by William Vickrey (1961). Vickrey con
 Automata
 ========
 
+Automata(or Automaton), is a self-operating machine, or a machine or control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions. Some automata, such as bellstrikers in mechanical clocks, are designed to give the illusion to the casual observer that they are operating under their own power.
+
+One of the most famous is "A new kind of science" by Stephen Wolfram(founder of Wolfram Research Inc.). The writer researched lots patterns of cellular automata.
+
+.. image:: ../images/Gospers_glider_gun.gif
+    :align: center
+
 Bell Curves
 ===========
+
+The Bell Curve: Intelligence and Class Structure in American Life is a 1994 book by psychologist Richard J. Herrnstein and political scientist Charles Murray, in which the authors argue that human intelligence is substantially influenced by both inherited and environmental factors and that it is a better predictor of many personal dynamics, including financial income, job performance, birth out of wedlock, and involvement in crime than are an individual's parental socioeconomic status. They also argue that those with high intelligence, the "cognitive elite", are becoming separated from those of average and below-average intelligence. The book was controversial, especially where the authors wrote about racial differences in intelligence and discussed the implications of those differences.
+
+Shortly after its publication, many people rallied both in criticism and defense of the book. A number of critical texts were written in response to it.
+
+.. image:: ../images/TheBellCurve.gif
+	:align: center
 
 Collective Coorperation
 =======================
