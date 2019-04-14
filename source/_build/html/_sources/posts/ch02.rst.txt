@@ -627,11 +627,8 @@ SVM就是试图把棍放在最佳位置，好让在棍的两边有尽可能大�
 
     |w^T A+b|
 
-神经网络（深度学习）
-======================
-
-强化学习
-=============
+神经网络
+=========
 
 AdaBoost
 ========
@@ -660,7 +657,7 @@ FP-growth发现高频项
 
 Gephi
 
-python-graphviz
+GraphViz
 
 python-matplotlib
 
