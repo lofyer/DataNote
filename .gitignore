@@ -1,5 +1,6 @@
 build/
 rst_sample/*.pdf
 rst_sample/*.html
+source/_build
 .DS_Store
 .vscode/
