@@ -1426,3 +1426,13 @@ EACH
 	│       └── Wolf Sheep Predation (System Dynamics).png
 	├── crossReference.conf
 	└── index.conf
+
+-------------------------
+3.7. 多纬度世界历史模型
+-------------------------
+
+可归类（category）的群体；
+
+可追溯的发展轨迹（track）；
+
+可用GIS描述的群体载体（container）；
