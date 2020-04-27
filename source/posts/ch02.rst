@@ -677,6 +677,8 @@ Microsoft Excel 2013 PowerView使用示例
 
 `Kartograph <http://kartograph.org/>`_
 
+Echarts
+
 -------------
 2.5 学习工具
 -------------
