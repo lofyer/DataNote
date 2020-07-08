@@ -664,7 +664,11 @@ python-graphviz
 
 python-matplotlib
 
-Microsoft Excel 2013 PowerView
+Echarts
+
+plotnine
+
+seaborn
 
 地理位置表示
 ============
@@ -677,7 +681,7 @@ Microsoft Excel 2013 PowerView使用示例
 
 `Kartograph <http://kartograph.org/>`_
 
-Echarts
+
 
 -------------
 2.5 学习工具
@@ -719,6 +723,8 @@ libsvm
 numpy
 
 matplotlib
+
+`scratch <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>`_
 
 ---------------
 2.6 显卡的力量

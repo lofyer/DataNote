@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-代理人模型交易笔记 - ABM在现代经济的应用暨外汇量化、新闻政史交易实践
+代理人模型笔记 - ABM在现代经济的应用暨外汇量化、新闻政史交易实践
 ======================================================================
 
 这个笔记的是笔者的学习手记，内容包括统计、建模（EBM、ABM）、数据处理平台、外汇信号系统、量化交易、机器人制作等内容，较为繁杂。读者根据自己的需求酌情阅读。（意思就是你通读了这本书并不会对你产生太大影响，但是如果能改变你的一点点思想，那就是好的。)
@@ -32,7 +32,7 @@
 .. image:: ./images/infra-1.png
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     posts/ch01.rst
     posts/ch02.rst

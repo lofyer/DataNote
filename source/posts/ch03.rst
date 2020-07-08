@@ -41,8 +41,7 @@ EBM不是这本书的重点，但并不是说它不重要，因为已经有很�
 3.5 模型收集
 -------------
 
-Auction
-========
+**Auction**
 
 Auction theory is an applied branch of economics which deals with how people act in auction markets and researches the properties of auction markets. There are many possible designs (or sets of rules) for an auction and typical issues studied by auction theorists include the efficiency of a given auction design, optimal and equilibrium bidding strategies, and revenue comparison. Auction theory is also used as a tool to inform the design of real-world auctions; most notably auctions for the privatization of public-sector companies or the sale of licenses for use of the electromagnetic spectrum.
 
@@ -95,8 +94,7 @@ The first formal analysis of auctions was by William Vickrey (1961). Vickrey con
 
     B(v)=\left(\frac{n-1}{n}\right)v
 
-Automata
-========
+**Automata**
 
 Automata(or Automaton), is a self-operating machine, or a machine or control mechanism designed to automatically follow a predetermined sequence of operations, or respond to predetermined instructions. Some automata, such as bellstrikers in mechanical clocks, are designed to give the illusion to the casual observer that they are operating under their own power.
 
@@ -105,8 +103,7 @@ One of the most famous is "A new kind of science" by Stephen Wolfram(founder of 
 .. image:: ../images/Gospers_glider_gun.gif
     :align: center
 
-Bell Curves
-===========
+**Bell Curves**
 
 The Bell Curve: Intelligence and Class Structure in American Life is a 1994 book by psychologist Richard J. Herrnstein and political scientist Charles Murray, in which the authors argue that human intelligence is substantially influenced by both inherited and environmental factors and that it is a better predictor of many personal dynamics, including financial income, job performance, birth out of wedlock, and involvement in crime than are an individual's parental socioeconomic status. They also argue that those with high intelligence, the "cognitive elite", are becoming separated from those of average and below-average intelligence. The book was controversial, especially where the authors wrote about racial differences in intelligence and discussed the implications of those differences.
 
@@ -115,83 +112,57 @@ Shortly after its publication, many people rallied both in criticism and defense
 .. image:: ../images/TheBellCurve.gif
 	:align: center
 
-Collective Coorperation
-=======================
+**Collective Coorperation**
 
-DIKW
-====
+**DIKW**
 
-Entropy
-=======
+**Entropy**
 
-Fisher
-======
+**Fisher**
 
-Large Event
-===========
+**Large Event**
 
-Linear
-======
+**Linear**
 
-Long tails
-==========
+**Long tails**
 
-Lyapunov
-========
+**Lyapunov**
 
-Marknov
-=======
+**Marknov**
 
-Miller Page
-===========
+**Miller Page**
 
-Nash Equilibrium
-================
+**Nash Equilibrium**
 
-Networks
-========
+**Networks**
 
-Percolation
-===========
+**Percolation**
 
-Polya Balancing Process
-=======================
+**Polya Balancing Process**
 
-Prisoner Dilemma
-================
+**Prisoner Dilemma**
 
-RandomWalking
-=============
+**RandomWalking**
 
-Risk in tails
-=============
+**Risk in tails**
 
-S Concurve Convex
-=================
+**S Concurve Convex**
 
-Schellings
-==========
+**Schellings**
 
-Shapley Value
-==============
+**Shapley Value**
 
-Six Sigma
-==========
+**Six Sigma**
 
-Spatial
-=======
+**Spatial**
 
-Tipping Point
-=============
+**Tipping Point**
 
-Uncertainty
-===========
+**Uncertainty**
 
-Voter
-=====
+**Voter**
 
-EACH
-====
+**EACH**
 
 ---------------------
 3.6 NetLogo模型全解

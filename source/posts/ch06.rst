@@ -242,7 +242,9 @@ index上升时交易：
 6.7. 客户模拟平台
 ------------------
 
-OpenShift
+StockSharp
+
+my_library/source/forex/
 
 ----------------
 6.8. 交易箴言
@@ -324,6 +326,6 @@ Do not forget that each moment is an excellent indicator of your development lev
 
 To reach a success in trading, you need to take the whole responsibility of your decisions and actions on yourself. 
 
------------------
+-------------------
 6.9 全链路测试代理
------------------
+-------------------
