@@ -134,7 +134,7 @@ pybrain
 
 jieba
 
-tensor-flow
+tensorflow
 
 可直接使用python-geograpy进行新闻地点筛选，以及pycountry查询地点信息。
 
@@ -176,6 +176,10 @@ tensor-flow
 =====================
 
 获取历史数据的途径比较多，Python/R语言中有非常方便的库可供直接调用，比如pandas、quantmod等。但是，他们的数据源、数据周期、数据精度等不太满足我们的回测需求，所以在经过大量测试后，笔者推荐使用如下方式进行获取。
+
+QCollector Expert for eSignal
+
+MT4客户端数据下载
 
 ---------------------
 6.2. 数据源处理
@@ -242,9 +246,11 @@ index上升时交易：
 6.7. 客户模拟平台
 ------------------
 
-StockSharp
+StockSharp（开源）
 
 my_library/source/forex/
+
+Altreva Adapative Model
 
 ----------------
 6.8. 交易箴言

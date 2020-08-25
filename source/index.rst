@@ -24,6 +24,11 @@
 
 哦，还有个公众号，vola！
 
+.. code::
+
+    UPDATE 2020-07
+    好久没更新了
+
 .. image:: ./images/logo.jpg
     :align: center
 
