@@ -170,6 +170,11 @@ Shortly after its publication, many people rallied both in criticism and defense
 
 里面模型有些多，学习语言的好素材。
 
+Web版示例：
+
+.. raw:: html
+    :file: ../files/TrafficGridGoal.html
+
 -------------------------
 3.7. 多纬度世界历史模型
 -------------------------
