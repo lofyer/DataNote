@@ -1,6 +1,6 @@
-====================
-第六章 信号交易系统
-====================
+========================================
+第六章 信号交易系统（外汇与区块链）
+========================================
 
 先当作普通的控制系统处理，然后加入更多输入信号之后当作复杂系统处理，采用ABM建模。
 
@@ -251,6 +251,14 @@ StockSharp（开源）
 my_library/source/forex/
 
 Altreva Adapative Model
+
+`OpenTrade <https://github.com/opentradesolutions/opentrade>`_
+
+`平台与工具收集 <https://github.com/EliteQuant/EliteQuant>`_
+
+`模拟器 <https://github.com/topics/trading-simulator>`_
+
+`QuantConnect Lean <https://github.com/QuantConnect/Lean/>`_
 
 ----------------
 6.8. 交易箴言
