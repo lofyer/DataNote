@@ -260,6 +260,8 @@ Altreva Adapative Model
 
 `QuantConnect Lean <https://github.com/QuantConnect/Lean/>`_
 
+`免费交易历史数据 <https://iextrading.com/trading/market-data/#hist-download>`_
+
 ----------------
 6.8. 交易箴言
 ----------------
