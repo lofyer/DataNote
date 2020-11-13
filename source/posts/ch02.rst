@@ -695,11 +695,23 @@ GUI
 
 `Weka <http://www.cs.waikato.ac.nz/>`_
 
+.. code::
+
+    brew cask install weka
+
 `MOA <https://moa.cms.waikato.ac.nz>`_
 
 `Orange <https://orange.biolab.si/>`_
 
+.. code::
+
+    pip3 install orange
+
 `KNIME <https://www.knime.com/>`_
+
+.. code::
+
+    pip3 install knime
 
 Library
 ========
