@@ -1,5 +1,5 @@
 ========================================
-第六章 信号交易系统（外汇与区块链）
+第六章 信号交易系统（外汇、股市与区块链）
 ========================================
 
 先当作普通的控制系统处理，然后加入更多输入信号之后当作复杂系统处理，采用ABM建模。
@@ -261,6 +261,8 @@ Altreva Adapative Model
 `QuantConnect Lean <https://github.com/QuantConnect/Lean/>`_
 
 `免费交易历史数据 <https://iextrading.com/trading/market-data/#hist-download>`_
+
+`AkShare股市数据 <https://www.akshare.xyz/zh_CN/latest/introduction.html>`_
 
 ----------------
 6.8. 交易箴言
