@@ -12,7 +12,7 @@
 
 **不要以编程开始你的机器学习之旅，这样容易使思维受限于语言，通过对模型和结果的思考达到你的目的，编程只是手段之一。** 话虽如此，但是你必须学会的语言有Python、NetLogo、MQL，额外的语言为Bash、C、C++，如果你会点Java那就更好啦。如何学习它们？OK，下载手册，那些命令与类型一个个敲着学，不要漏过任何一个。R语言的效率可能并不是很好，工程类喜欢Python，科学家喜欢S-Plus，R也流行。
 
-建模工具这块儿，笔者认为最适合个人学习的当属Netlogo，其他开源项目有可直接用Java或者Python编程的，也有商业产品比如IBM SPSS、AnyLogic系列，模拟股市的也有Altreva Adaptive Modeler，但是。。。扩展性支持上Netlogo灵活而多样，如果需要超算版本可以也可以试试Repast。
+建模工具这块儿，笔者认为最适合个人学习的当属Netlogo，其他开源项目有可直接用 `GAMA <https://gama-platform.github.io/>`_ 或者 `Mesa <https://github.com/projectmesa/mesa>`_ ，也有商业产品比如IBM SPSS、AnyLogic系列，模拟股市的也有 `Altreva Adaptive Modeler <https://www.altreva.com/>`_ 、`QLearning Trading <https://github.com/ucaiado/QLearning_Trading>`_，但是。。。扩展性支持上Netlogo灵活而多样，如果需要超算版本可以也可以试试Repast。
 
 NetLogo: :download:`netlogo_help.7z<../files/netlogo_help.7z>`
 
